@@ -16,7 +16,6 @@ cursor.execute('SELECT * from table2;')
 
 result = cursor.fetchmany(2)
 print('fetch many ', result)
-
 result2 = cursor.fetchone()
 print('fetchone', result2)
 
